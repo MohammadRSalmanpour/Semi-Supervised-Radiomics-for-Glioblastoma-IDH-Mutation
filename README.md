@@ -14,22 +14,35 @@ We systematically compared supervised (SL) and semi-supervised (SSL) models acro
 🧪 Key Contributions
 
 ✅ First large-scale multicenter SSL framework for IDH prediction.
+
 ✅ Integration of 38 feature selection/attribute extraction methods and 24 classifiers.
+
 ✅ Comprehensive cross-validation and external validation (UCSF-PDGM, UPENN-GBM, IvyGAP, TCGA-GBM, TCGA-LGG).
+
 ✅ Data sensitivity analysis under varying labeled/unlabeled proportions.
+
 ✅ SHAP interpretability to identify stable and biologically relevant radiomic biomarkers.
 
 📊 Main Results
 
 Best SSL model (RFE + SVM):
+
 Cross-validation accuracy: 0.93 ± 0.01
+
 External accuracy: 0.75 ± 0.02
+
 High F1 (0.94 CV, 0.74 test) and AUC (0.97 CV, 0.84 test).
+
 Best SL model (RFE + Complement Naïve Bayes):
+
 Cross-validation accuracy: 0.90 ± 0.02
+
 External accuracy: 0.80 ± 0.006
+
 Multimodal MRI (T1+T2+T1CE+FLAIR) consistently outperformed single-sequence models.
+
 SSL reduced sensitivity to dataset size, enabling robust performance with limited labels.
+
 SHAP analysis highlighted the importance of FO_RMS (T1CE) and wavelet-derived features.
 
 📑 Citation
@@ -41,6 +54,9 @@ Semi-Supervised Radiomics for Glioblastoma IDH Mutation: Limited Labels, Data Se
 🙏 Acknowledgements
 
 This project was supported by:
+
 Virtual Collaboration Group (VirCollab) and TECVICO CORP.
+
 Canadian Foundation for Innovation – John R. Evans Leaders Fund (CFI-JELF)
+
 NSERC Discovery Grants
