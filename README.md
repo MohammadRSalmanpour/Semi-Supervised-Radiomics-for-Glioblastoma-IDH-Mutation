@@ -6,7 +6,9 @@ Limited Labels, Data Sensitivity, and SHAP Interpretation
 
 This repository contains the code, supplemental files, and results for our paper:
 "Semi-Supervised Radiomics for Glioblastoma IDH Mutation: Limited Labels, Data Sensitivity, and SHAP Interpretation."
+
 Glioblastoma (GBM) is one of the most aggressive brain tumors. IDH mutation status is a crucial prognostic biomarker, but conventional testing requires invasive biopsies. This work introduces a semi-supervised learning (SSL) framework that leverages multi-sequence MRI radiomics (T1, T2, T1CE, FLAIR) to predict IDH status.
+
 We systematically compared supervised (SL) and semi-supervised (SSL) models across 8 multicenter datasets (n=1,329 patients) and incorporated SHAP-based interpretation for feature importance analysis.
 
 🧪 Key Contributions
