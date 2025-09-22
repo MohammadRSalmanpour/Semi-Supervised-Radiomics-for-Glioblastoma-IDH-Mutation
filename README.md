@@ -2,7 +2,6 @@
 
 **Title:** Semi-Supervised Radiomics for Glioblastoma IDH Mutation: Limited Labels, Data Sensitivity, and SHAP Interpretation  
 
----
 
 ## 📖 Overview
 This repository contains the code, supplemental files, and results for our paper:  
@@ -14,7 +13,6 @@ This work introduces a **semi-supervised learning (SSL) framework** that leverag
 
 We systematically compared **supervised (SL)** and **semi-supervised (SSL)** models across **8 multicenter datasets** (n = 1,329 patients) and incorporated **SHAP-based interpretation** for feature importance analysis.  
 
----
 
 ## 🧪 Key Contributions
 - ✅ First large-scale multicenter SSL framework for IDH prediction  
@@ -23,7 +21,6 @@ We systematically compared **supervised (SL)** and **semi-supervised (SSL)** mod
 - ✅ Data sensitivity analysis under varying labeled/unlabeled proportions  
 - ✅ SHAP interpretability to identify **stable and biologically relevant radiomic biomarkers**  
 
----
 
 ## 📊 Main Results
 
@@ -41,15 +38,11 @@ We systematically compared **supervised (SL)** and **semi-supervised (SSL)** mod
 - SSL reduced sensitivity to dataset size, enabling robust performance with limited labels  
 - SHAP analysis highlighted the importance of **FO_RMS (T1CE)** and **wavelet-derived features**  
 
----
-
 ## 📑 Citation
 If you use this repository in your work, please cite:  
 
 Pouria, A.H., Jabarzadeh Ghandilu, S., Taeb, S., Mehrnia, S.S., Oveisi, M., Hacihaliloglu, I., Rahmim, A., Salmanpour, M.R.  
 *Semi-Supervised Radiomics for Glioblastoma IDH Mutation: Limited Labels, Data Sensitivity, and SHAP Interpretation.* 2025.  
-
----
 
 ## 🙏 Acknowledgements
 This project was supported by:  
