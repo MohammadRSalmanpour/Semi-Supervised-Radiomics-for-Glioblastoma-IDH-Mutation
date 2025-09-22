@@ -40,17 +40,17 @@ We systematically compared **supervised (SL)** and **semi-supervised (SSL)** mod
 
 
 ## 📂 Repository Structure
-   ├── Classification Code.ipynb
-   ├── Supplemental_File_1.xlsx   # SL – FLAIR (Sheets 1–4: Selected_Features, Best_Parameters, Aggregated_Results, Aggregated_Std_Results)
-   ├── Supplemental_File_2.xlsx   # SL – Combined sequences (Sheets 1–4 as above)
-   ├── Supplemental_File_3.xlsx   # SL – T1
-   ├── Supplemental_File_4.xlsx   # SL – T1CE
-   ├── Supplemental_File_5.xlsx   # SL – T2
-   ├── Supplemental_File_6.xlsx   # SSL – FLAIR
-   ├── Supplemental_File_7.xlsx   # SSL – Combined sequences
-   ├── Supplemental_File_8.xlsx   # SSL – T1
-   ├── Supplemental_File_9.xlsx   # SSL – T1CE
-   └── Supplemental_File_10.xlsx  # SSL – T2
+      ├── Classification Code.ipynb
+      ├── Supplemental_File_1.xlsx   # SL – FLAIR (Sheets 1–4: Selected_Features, Best_Parameters, Aggregated_Results, Aggregated_Std_Results)
+      ├── Supplemental_File_2.xlsx   # SL – Combined sequences (Sheets 1–4 as above)
+      ├── Supplemental_File_3.xlsx   # SL – T1
+      ├── Supplemental_File_4.xlsx   # SL – T1CE
+      ├── Supplemental_File_5.xlsx   # SL – T2
+      ├── Supplemental_File_6.xlsx   # SSL – FLAIR
+      ├── Supplemental_File_7.xlsx   # SSL – Combined sequences
+      ├── Supplemental_File_8.xlsx   # SSL – T1
+      ├── Supplemental_File_9.xlsx   # SSL – T1CE
+      └── Supplemental_File_10.xlsx  # SSL – T2
 
 
 ## 📑 Citation
